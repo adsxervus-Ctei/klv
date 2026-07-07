@@ -1,0 +1,22 @@
+K LIBRE VALLENATO — Sitio web (estático, listo para Hostinger)
+================================================================
+
+CÓMO PUBLICARLO
+1. Entre al Administrador de archivos de Hostinger (o por FTP).
+2. Suba TODO el contenido de esta carpeta a la carpeta "public_html".
+3. Listo: su sitio queda en su dominio.
+
+CÓMO PONER SU VIDEO
+- Opción A (archivo): copie su video como  assets/video/klibre.mp4  (reemplace el existente).
+- Opción B (YouTube): abra  lib/manifest.js  y escriba el ID del video entre comillas en
+  youtubeId: "AQUI_EL_ID"   (el ID es lo que va después de watch?v= en el enlace de YouTube).
+
+CÓMO CAMBIAR LA PROPUESTA EN PDF
+- Reemplace el archivo dentro de la carpeta  propuesta/  por su PDF más reciente
+  (conserve el mismo nombre, o actualice la ruta "pdf" en lib/manifest.js).
+
+DATOS EDITABLES (nombre, WhatsApp, etc.)
+- Todo está en  lib/manifest.js  — cámbielo con el Bloc de notas.
+
+NOTA
+- La carpeta assets/photos/source guarda la foto original; puede borrarla para aligerar.

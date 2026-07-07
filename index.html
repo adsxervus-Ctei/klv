@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>K LIBRE VALLENATO — Organización musical · Espectáculos en vivo</title>
+<meta name="description" content="K LIBRE VALLENATO — organización musical del Sur de Bolívar. Espectáculo en vivo de primer nivel, efectos especiales y pirotecnia fría. Contrataciones y propuesta comercial." />
+<link rel="icon" href="assets/favicon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css?v=20260706" />
+</head>
+<body>
+
+<!-- ===== SPLASH ===== -->
+<div id="splash" class="splash">
+  <div class="splash-inner">
+    <img src="assets/img/crest.webp" alt="" class="splash-crest" />
+    <div class="splash-line"><span></span></div>
+    <p class="splash-word">K LIBRE VALLENATO</p>
+  </div>
+</div>
+
+<!-- ===== NAV ===== -->
+<header class="nav" id="nav">
+  <a href="#inicio" class="nav-brand">
+    <img src="assets/img/crest.webp" alt="K Libre Vallenato" class="nav-crest" />
+    <span>K LIBRE <em>VALLENATO</em></span>
+  </a>
+  <nav class="nav-links" id="navLinks">
+    <a href="#inicio">Inicio</a>
+    <a href="#grupo">El grupo</a>
+    <a href="#video">Video</a>
+    <a href="#propuesta">Propuesta</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  <a class="btn btn-primary nav-cta" data-pdf href="#">Descargar propuesta</a>
+  <button class="nav-toggle" id="navToggle" aria-label="Menú">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="inicio">
+  <div class="hero-mesh"></div>
+  <div class="hero-grain"></div>
+  <div class="hero-photo">
+    <img src="assets/img/artist.webp" alt="Vocalista de K Libre Vallenato en tarima" />
+    <div class="hero-photo-fade"></div>
+  </div>
+  <div class="hero-inner">
+    <div class="hero-meta reveal"><span class="dot"></span><span>Organización musical · Sur de Bolívar</span></div>
+    <h1 class="hero-title reveal">
+      <span class="l1">K LIBRE</span>
+      <span class="l2">VALLENATO</span>
+    </h1>
+    <p class="hero-sub reveal">Espectáculo en vivo de primer nivel, con músicos profesionales de amplia trayectoria, efectos especiales y pirotecnia fría (chispas frías) coordinada.</p>
+    <div class="hero-actions reveal">
+      <a class="btn btn-primary" href="#video">▶ Ver el show</a>
+      <a class="btn btn-ghost" data-pdf href="#">Descargar propuesta (PDF)</a>
+    </div>
+    <div class="hero-stats reveal">
+      <div class="stat"><span class="stat-num" data-count="17">0</span><span class="stat-label">años en escena</span></div>
+      <div class="stat"><span class="stat-num" data-count="90">0</span><span class="stat-label">min de show en vivo</span></div>
+      <div class="stat"><span class="stat-num" data-count="28">0</span><span class="stat-label">personas en delegación</span></div>
+    </div>
+  </div>
+  <a href="#grupo" class="hero-scroll" aria-label="Bajar">⌄</a>
+</section>
+
+<!-- ===== EL GRUPO ===== -->
+<section class="section grupo" id="grupo">
+  <div class="section-head">
+    <span class="kicker reveal">La agrupación</span>
+    <h2 class="section-title reveal">Vallenato de raíz, <em>puesta en escena</em> de gran formato.</h2>
+  </div>
+  <p class="grupo-lead reveal">Con raíces en el eje Magdalena&nbsp;·&nbsp;Cesar&nbsp;·&nbsp;Bolívar y más de una década y media de trayectoria en tarimas de la Costa y del interior del país, K&nbsp;Libre Vallenato regresa con una producción renovada: sonido profesional, iluminación y un cierre de efectos que convierte cada presentación en un acontecimiento.</p>
+  <div class="pillars">
+    <article class="pillar tilt reveal">
+      <div class="pillar-ic">♪</div>
+      <h3>Música en vivo</h3>
+      <p>90 minutos de repertorio con músicos profesionales de amplia trayectoria y un vallenato que el público canta de principio a fin.</p>
+    </article>
+    <article class="pillar tilt reveal">
+      <div class="pillar-ic">✦</div>
+      <h3>Producción de show</h3>
+      <p>Sonido, iluminación y puesta en escena coordinados para tarimas de festival, ferias y fiestas patronales.</p>
+    </article>
+    <article class="pillar tilt reveal">
+      <div class="pillar-ic">✷</div>
+      <h3>Efectos y pirotecnia</h3>
+      <p>Efectos especiales y pirotecnia fría (chispas frías) totalmente coordinada, con la seguridad del público como prioridad.</p>
+    </article>
+  </div>
+</section>
+
+<!-- ===== VIDEO ===== -->
+<section class="section video" id="video">
+  <div class="section-head center">
+    <span class="kicker reveal">En tarima</span>
+    <h2 class="section-title reveal">Así se vive un show de <em>K Libre</em>.</h2>
+  </div>
+  <div class="player reveal" id="player">
+    <div class="player-frame">
+      <video id="klVideo" poster="assets/img/video-poster.webp" preload="none" playsinline>
+        <source src="assets/video/klibre.mp4" type="video/mp4" />
+      </video>
+      <div class="player-overlay" id="playerOverlay">
+        <button class="play-btn" id="playBtn" aria-label="Reproducir video">
+          <svg viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>
+        </button>
+        <span class="player-hint">Reproducir presentación</span>
+      </div>
+    </div>
+  </div>
+  <p class="player-note reveal">¿Aún no cargó su video? Reemplace el archivo <code>assets/video/klibre.mp4</code> por el suyo, o indique un enlace de YouTube en <code>lib/manifest.js</code>.</p>
+</section>
+
+<!-- ===== PROPUESTA ===== -->
+<section class="section propuesta" id="propuesta">
+  <div class="prop-card reveal tilt">
+    <div class="prop-left">
+      <span class="kicker">Contrataciones</span>
+      <h2 class="prop-title">Propuesta comercial <em>lista para descargar</em></h2>
+      <p class="prop-text">Condiciones artísticas, técnicas y económicas de la presentación: duración, delegación, requerimientos de tarima, forma de pago y datos de contacto. Documento en PDF, listo para su junta u organización.</p>
+      <div class="prop-facts">
+        <span>90 min de show</span>
+        <span>28 personas</span>
+        <span>Efectos + pirotecnia</span>
+      </div>
+      <a class="btn btn-primary btn-lg" data-pdf href="#">⤓ Descargar propuesta (PDF)</a>
+    </div>
+    <div class="prop-right">
+      <div class="prop-doc">
+        <img src="assets/img/crest.webp" alt="" />
+        <span class="prop-doc-t">PROPUESTA<br>COMERCIAL</span>
+        <span class="prop-doc-s">K LIBRE VALLENATO</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACTO ===== -->
+<section class="section contacto" id="contacto">
+  <div class="section-head center">
+    <span class="kicker reveal">Reservas y fechas</span>
+    <h2 class="section-title reveal">Coordinemos su <em>evento</em>.</h2>
+  </div>
+  <div class="contact-grid">
+    <div class="contact-card reveal">
+      <span class="cc-label">Mánager General</span>
+      <span class="cc-value" id="ccManager">Guillermo Mejía</span>
+    </div>
+    <a class="contact-card cc-link reveal" id="ccWa" href="#" target="_blank" rel="noopener">
+      <span class="cc-label">WhatsApp</span>
+      <span class="cc-value" id="ccWaNum">302 837 7870</span>
+      <span class="cc-go">Escribir →</span>
+    </a>
+    <div class="contact-card reveal">
+      <span class="cc-label">Cobertura</span>
+      <span class="cc-value">Nacional · Costa Caribe</span>
+    </div>
+  </div>
+  <div class="contact-cta reveal">
+    <a class="btn btn-primary btn-lg" id="waBig" href="#" target="_blank" rel="noopener">Reservar fecha por WhatsApp</a>
+    <a class="btn btn-ghost btn-lg" data-pdf href="#">Ver la propuesta</a>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="footer-brand">
+    <img src="assets/img/crest.webp" alt="" />
+    <span>K LIBRE <em>VALLENATO</em></span>
+  </div>
+  <p class="footer-tag">Organización musical · Espectáculos en vivo · Sur de Bolívar</p>
+  <p class="footer-legal">© <span id="year">2026</span> K Libre Vallenato. Todos los derechos reservados.</p>
+</footer>
+
+<!-- libs -->
+<script defer src="lib/gsap.min.js"></script>
+<script defer src="lib/ScrollTrigger.min.js"></script>
+<script defer src="lib/manifest.js"></script>
+<script defer src="main.js?v=20260706"></script>
+</body>
+</html>
